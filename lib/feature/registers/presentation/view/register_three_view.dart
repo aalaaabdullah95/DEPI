@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:test_project_depi/core/utilies/styles.dart';
 import 'package:test_project_depi/feature/registers/presentation/view/widgets/custom_button.dart';
 import 'package:test_project_depi/feature/registers/presentation/view/widgets/custom_text_feild.dart';
 import 'package:test_project_depi/feature/registers/presentation/view/widgets/grediant_background.dart';
@@ -12,6 +11,8 @@ class RegisterThreeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
         leading: const Icon(Icons.arrow_back),
       ),
       body: GradientBackground(

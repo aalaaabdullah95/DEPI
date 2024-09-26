@@ -10,15 +10,15 @@ abstract class AppRouter {
   static final routers = GoRouter(routes: [
     GoRoute(
       path: '/',
-      builder: (context, state) => const RegisterThreeView(),
-    ),
-    GoRoute(
-      path: registerTwoView,
       builder: (context, state) => const RegisterOneView(),
     ),
     GoRoute(
-      path: registerThreeView,
+      path: registerTwoView,
       builder: (context, state) => const RegisterTwoView(),
+    ),
+    GoRoute(
+      path: registerThreeView,
+      builder: (context, state) => const RegisterThreeView(),
     ),
   ]);
 }

@@ -12,6 +12,8 @@ class RegisterOneView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
         leading: const Icon(Icons.arrow_back),
       ),
       body: GradientBackground(

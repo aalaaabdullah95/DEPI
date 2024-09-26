@@ -5,8 +5,6 @@ void main() {
   runApp(const DepiLms());
 }
 
-int a = 55;
-
 class DepiLms extends StatelessWidget {
   const DepiLms({super.key});
 
