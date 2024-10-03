@@ -20,10 +20,34 @@ abstract class Styles {
     fontWeight: FontWeight.bold,
   );
 
-//button label text
+  //button label text
   static const textstyle12 = TextStyle(
     fontSize: 12,
     fontWeight: FontWeight.w600,
     color: MyColors.textColor,
+  );
+  static const textstyle20Black = TextStyle(
+    fontSize: 20,
+    color: Colors.black,
+  );
+  static const textstyle10Black = TextStyle(
+    fontSize: 10,
+    color: Colors.black,
+  );
+
+  static const textstyle16 = TextStyle(
+    fontSize: 16,
+    color: Colors.black,
+  );
+  static const textstyle11 = TextStyle(
+    fontWeight: FontWeight.w300,
+    fontSize: 11,
+    color: Color(0xff555555),
+  );
+
+  static const textstyle16Black = TextStyle(
+    fontWeight: FontWeight.w600,
+    fontSize: 16,
+    color: Colors.black,
   );
 }

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:test_project_depi/core/utilies/styles.dart';
 import 'package:test_project_depi/feature/registers/presentation/view/widgets/custom_button.dart';
 import 'package:test_project_depi/feature/registers/presentation/view/widgets/custom_text_feild.dart';
-import 'package:test_project_depi/feature/registers/presentation/view/widgets/grediant_background.dart';
+import 'package:test_project_depi/core/widget/grediant_background.dart';
 import 'package:test_project_depi/feature/registers/presentation/view/widgets/logo_image.dart';
 
 class RegisterOneView extends StatelessWidget {
@@ -87,7 +87,7 @@ class RegisterOneView extends StatelessWidget {
                 ],
               ),
               SizedBox(
-                height: 44,
+                height: 10,
               ),
               Padding(
                 padding: EdgeInsets.only(left: 28),

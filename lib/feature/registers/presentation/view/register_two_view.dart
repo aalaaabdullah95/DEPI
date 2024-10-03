@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:test_project_depi/feature/registers/presentation/view/widgets/custom_button.dart';
 import 'package:test_project_depi/feature/registers/presentation/view/widgets/custom_text_feild.dart';
-import 'package:test_project_depi/feature/registers/presentation/view/widgets/grediant_background.dart';
+import 'package:test_project_depi/core/widget/grediant_background.dart';
 import 'package:test_project_depi/feature/registers/presentation/view/widgets/logo_image.dart';
 
 class RegisterTwoView extends StatelessWidget {
