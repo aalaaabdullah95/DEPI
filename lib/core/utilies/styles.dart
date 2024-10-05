@@ -19,6 +19,11 @@ abstract class Styles {
     color: Colors.white,
     fontWeight: FontWeight.bold,
   );
+  static const textstyle30White = TextStyle(
+    fontSize: 30,
+    color: Colors.white,
+    fontWeight: FontWeight.w500,
+  );
 
   //button label text
   static const textstyle12 = TextStyle(
@@ -26,9 +31,12 @@ abstract class Styles {
     fontWeight: FontWeight.w600,
     color: MyColors.textColor,
   );
-  static const textstyle20Black = TextStyle(
-    fontSize: 20,
+  static const textstyle20Black =
+      TextStyle(fontSize: 20, color: Colors.black, fontWeight: FontWeight.w400);
+  static const textstyle30Black = TextStyle(
+    fontSize: 30,
     color: Colors.black,
+    fontWeight: FontWeight.bold,
   );
   static const textstyle10Black = TextStyle(
     fontSize: 10,

@@ -4,7 +4,6 @@ import 'package:test_project_depi/feature/registers/presentation/view/register_t
 import 'package:test_project_depi/feature/registers/presentation/view/register_two_view.dart';
 import 'package:test_project_depi/feature/sec_four_student/presentation/view/announcementView.dart';
 import 'package:test_project_depi/feature/sec_four_student/presentation/view/announcementWithDetails.dart';
-import 'package:test_project_depi/feature/sec_six_student/presentation/view/account_setting_student_screen.dart';
 import 'package:test_project_depi/feature/sec_six_student/presentation/view/setting_student_screen.dart';
 import 'package:test_project_depi/feature/sec_three_student/presentation/view/complaints_and_suggestions.dart';
 
@@ -51,9 +50,9 @@ abstract class AppRouter {
       path: settingStudentScreen,
       builder: (context, state) => const SettingStudentScreen(),
     ),
-    GoRoute(
-      path: accountSettingStudentScreen,
-      builder: (context, state) => const AccountSettingStudentScreen(),
-    ),
+    // GoRoute(
+    //   path: accountSettingStudentScreen,
+    //   builder: (context, state) => const AccountSettingStudentScreen(),
+    // ),
   ]);
 }
