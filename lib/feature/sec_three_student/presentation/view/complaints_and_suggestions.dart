@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test_project_depi/core/widget/custom_bottomNavBar.dart';
-import 'package:test_project_depi/core/widget/custom_button.dart';
+import 'package:test_project_depi/core/widget/custom_button_for_all.dart';
 import 'package:test_project_depi/core/widget/grediant_background.dart';
 import 'package:test_project_depi/core/widget/backGroundNavigationBar.dart';
 import 'package:test_project_depi/feature/sec_three_student/presentation/view/widgets/body.dart';

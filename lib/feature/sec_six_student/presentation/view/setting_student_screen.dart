@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:test_project_depi/core/utilies/app_router.dart';
 import 'package:test_project_depi/core/utilies/colors.dart';
 import 'package:test_project_depi/core/utilies/styles.dart';
 import 'package:test_project_depi/core/widget/backGroundNavigationBar.dart';
@@ -119,7 +120,9 @@ class Part_of_account extends StatelessWidget {
           text: 'Edit Profile',
           widget: IconButton(
             onPressed: () {
-              /////// GoRouter.of(context).push('');
+              GoRouter.of(context).push(
+                AppRouter.accountSettingStudentScreen,
+              );
             },
             icon: const Icon(
               Icons.arrow_forward_ios,

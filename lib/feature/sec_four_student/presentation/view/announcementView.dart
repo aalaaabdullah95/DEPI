@@ -4,7 +4,7 @@ import 'package:test_project_depi/core/utilies/app_router.dart';
 import 'package:test_project_depi/core/widget/backGroundNavigationBar.dart';
 import 'package:test_project_depi/core/widget/containerBackground.dart';
 import 'package:test_project_depi/core/widget/custom_bottomNavBar.dart';
-import 'package:test_project_depi/core/widget/custom_button.dart';
+import 'package:test_project_depi/core/widget/custom_button_for_all.dart';
 import 'package:test_project_depi/core/widget/grediant_background.dart';
 import 'package:test_project_depi/feature/sec_four_student/presentation/view/widgets/FromAndSubjectAndDate.dart';
 import 'package:test_project_depi/feature/sec_four_student/presentation/view/widgets/blue_circuit.dart';
