@@ -2,8 +2,13 @@ import 'package:flutter/material.dart';
 import 'dart:ui';
 
 class CustomAlertdialog extends StatelessWidget {
+  final Color? color;
   final Widget content;
-  const CustomAlertdialog({super.key, required this.content});
+  const CustomAlertdialog({
+    super.key,
+    required this.content,
+    this.color,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -13,6 +18,7 @@ class CustomAlertdialog extends StatelessWidget {
         sigmaY: 1.5,
       ),
       child: AlertDialog(
+        backgroundColor: color,
         shape: RoundedRectangleBorder(
           side: const BorderSide(
             color: Colors.black,

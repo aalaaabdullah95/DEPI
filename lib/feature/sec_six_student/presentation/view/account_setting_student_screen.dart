@@ -194,7 +194,7 @@ class CustomHeaderWithTextFeild extends StatelessWidget {
                   focusedBorder: InputBorder.none,
                   border: InputBorder.none),
             ),
-          )
+          ),
         ],
       ),
     );

@@ -8,7 +8,7 @@ import 'package:test_project_depi/core/widget/custom_bottomNavBar.dart';
 import 'package:test_project_depi/core/widget/grediant_background.dart';
 import 'package:test_project_depi/feature/sec_six_student/presentation/view/widgets/Custom_Basic_Row_InSetting.dart';
 import 'package:test_project_depi/feature/sec_six_student/presentation/view/widgets/Custom_Row_Down_Basic_Row_InSetting.dart';
-import 'package:test_project_depi/feature/sec_six_student/presentation/view/widgets/Custom_alertDialog.dart';
+import 'package:test_project_depi/core/widget/Custom_alertDialog.dart';
 import 'package:test_project_depi/feature/sec_six_student/presentation/view/widgets/contentOfAlertDialogAbout.dart';
 import 'package:test_project_depi/feature/sec_six_student/presentation/view/widgets/contentOfAlertDialogLan.dart';
 import 'package:test_project_depi/feature/sec_six_student/presentation/view/widgets/custom_bottom_for_settingStudent.dart';
