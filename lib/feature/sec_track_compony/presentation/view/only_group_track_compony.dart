@@ -24,7 +24,9 @@ class OnlyGrouptrackscompany extends StatelessWidget {
                 prefixxicon: const Icon(
                   Icons.arrow_back,
                 ),
-                onPressedForprefix: () {},
+                onPressedForprefix: () {
+                  GoRouter.of(context).pop();
+                },
                 tittle: 'CAI1_SWD4_S9d',
                 width: 400,
                 heigh: 60,
